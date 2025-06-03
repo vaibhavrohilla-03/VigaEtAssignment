@@ -1,4 +1,4 @@
-# Collaborative AR/VR Environment - Internship Assignment
+# AR/VR Environment - Internship Assignment
 
 ## Project Overview
 
