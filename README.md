@@ -13,20 +13,20 @@
 * A dynamic UI panel showing participant video feeds, names, and speaking status
 * Basic handling of network disconnections and connection status feedback.
 ## Chosen Tech Stack
-* **Development Platform:** Unity `Unity 6`
+* **Development Platform:**  `Unity 6`
 * **AR/VR SDK/Platform:** Unity XR Interaction Toolkit (XRIT) `Open XR and Unity XR interaction Toolkit`
 * **Networking Solution:**
     * Unity Netcode for GameObjects (NGO)
     * Unity Relay (for P2P/P2R connectivity)
     * Unity Lobby (for room management and discovery)
-* **Voice Communication Solution:** Unity Vivox
-* **Editor Multiplayer Testing:** Unity Multiplayer Play Mode (MPPM)
+* **Voice Communication Solution:** `Unity Vivox`
+* **Editor Multiplayer Testing:** `Unity Multiplayer Play Mode (MPPM)`
 
 ## Setup Instructions
 
 1.  **Prerequisites:**
     * Unity Hub installed.
-    * Unity Editor version `[Your Unity Version]` installed.
+    * Unity Editor version `6.0.25` installed.
     * Git installed on your system.
     * A Unity Account with a Unity Project ID.
 
@@ -67,7 +67,7 @@
     * **Unity Vivox** is integrated for real-time voice communication.
     * It provides clear, bidirectional audio between all connected participants in a room.
     * The setup aims for minimal latency for a natural conversational experience.
-* **UI/UX for videofeedback Panel (tried to align it with the screenshot givin in the assignment document) :**
+* **UI/UX for videofeedback Panel (I tried to align it with the screenshot givin in the assignment document) :**
     * A key UI element is a **right-floating panel for video feedback** implemented using a Unity World Space Canvas with wrist menu functionality
     * This panel dynamically displays a list of all connected participants (up to a maximum of 4). (It is toggled when the user looks at the back of their right controller) as shown in the demo video
     * For each participant, the panel shows:
